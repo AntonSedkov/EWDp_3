@@ -34,7 +34,7 @@ public class Storehouse {
     public Terminal getTerminal() {
         Terminal terminal = null;
         locker.lock();
-        if (!freeTerminals.isEmpty() || givenTerminals.size() == TERMINAL_QUANTITY) {
+        if (!freeTerminals.isEmpty()) {
             terminal = freeTerminals.poll();
             givenTerminals.offer(terminal);
         } else {

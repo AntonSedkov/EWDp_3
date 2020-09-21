@@ -83,9 +83,11 @@ public class Van implements Runnable {
                     + ". Current terminal: " + ((terminal != null) ? terminal.getIdTerminal() : "no"));
             state.activate(this);
             try {
-                TimeUnit.SECONDS.sleep(2);
+                TimeUnit.SECONDS.sleep(1);
+                System.out.println("good");
             } catch (InterruptedException e) {
                 logger.error(e);
+                System.out.println("bad");
             }
         }
     }

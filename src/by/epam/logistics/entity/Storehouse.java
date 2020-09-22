@@ -33,22 +33,36 @@ public class Storehouse {
 
     public Terminal getTerminal() {
         Terminal terminal = null;
-        locker.lock();
-        if (!freeTerminals.isEmpty()) {
-            terminal = freeTerminals.poll();
-            givenTerminals.offer(terminal);
-        } else {
-            logger.warn("Terminals is occupied");
+        try {
+            locker.lock();
+            if (!freeTerminals.isEmpty()) {
+                terminal = freeTerminals.poll();
+                givenTerminals.offer(terminal);
+            } else {
+                locker.newCondition().await();
+                logger.warn("Terminals is occupied");
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            locker.unlock();
         }
-        locker.unlock();
         return terminal;
     }
 
     public void releaseTerminal(Terminal terminal) {
         locker.lock();
-        if (givenTerminals.remove(terminal)) {
-            freeTerminals.offer(terminal);
+
+        try {
+            if (givenTerminals.remove(terminal)) {
+                freeTerminals.offer(terminal);
+            }
+        } finally {
+            locker.unlock();
+            locker.newCondition().signalAll();
         }
+
+
     }
 
     public static Storehouse getInstance() {

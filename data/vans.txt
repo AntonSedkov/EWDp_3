@@ -1,0 +1,15 @@
+1 0 usual
+2 50 usual
+3 100 PERISHABLE
+4 0 PERISHABLE
+5 150 USUAL
+6 100 Usual
+7 50 perishable
+8 0 usUAl
+9 0 perishable
+10 0 usuaL
+11 50 perISHable
+12 50 usual
+13 200 usual
+14 250 Perishable
+15 0 perishablE

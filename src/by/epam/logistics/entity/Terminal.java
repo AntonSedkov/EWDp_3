@@ -3,13 +3,17 @@ package by.epam.logistics.entity;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class Terminal {
-    private static Logger logger = LogManager.getLogger(Terminal.class);
-    public static final int MAX_CAPACITY = 500;
-    private int emptyCapacity;
-    private int idTerminal;
+import java.util.StringJoiner;
 
-    private Terminal(int emptyCapacity) {
+public class Terminal {
+    public static final int MAX_CAPACITY = 500;
+    private static Logger logger = LogManager.getLogger(Terminal.class);
+
+    private int idTerminal;
+    private int emptyCapacity;
+
+    public Terminal(int idTerminal, int emptyCapacity) {
+        this.idTerminal = idTerminal;
         this.emptyCapacity = emptyCapacity;
     }
 
@@ -21,18 +25,36 @@ public class Terminal {
         this.idTerminal = idTerminal;
     }
 
-    public void setEmptyCapacity(int emptyCapacity) {
-        this.emptyCapacity = emptyCapacity;
-    }
-
     public int getEmptyCapacity() {
         return emptyCapacity;
     }
 
-    static Terminal getTerminal() {
-        Terminal terminal = new Terminal(MAX_CAPACITY);
-        logger.info("Terminal is created");
-        return terminal;
+    public void setEmptyCapacity(int emptyCapacity) {
+        this.emptyCapacity = emptyCapacity;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Terminal terminal = (Terminal) o;
+        if (idTerminal != terminal.idTerminal) return false;
+        return emptyCapacity == terminal.emptyCapacity;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = idTerminal;
+        result = 31 * result + emptyCapacity;
+        return result;
+    }
+
+    @Override
+    public String toString() {
+        return new StringJoiner(", ", Terminal.class.getSimpleName() + "[", "]")
+                .add("idTerminal=" + idTerminal)
+                .add("emptyCapacity=" + emptyCapacity)
+                .toString();
     }
 
 }

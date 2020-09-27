@@ -4,46 +4,52 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayDeque;
+import java.util.List;
 import java.util.Queue;
+import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Storehouse {
-
     private static Logger logger = LogManager.getLogger(Storehouse.class);
-    private static final Storehouse INSTANCE = new Storehouse();
+    private static Storehouse INSTANCE;
 
-    private static final int TERMINAL_QUANTITY = 3;
-    private ReentrantLock locker;
-    private final Queue<Terminal> givenTerminals;
     private final Queue<Terminal> freeTerminals;
+    private final Queue<Terminal> givenTerminals;
+    private ReentrantLock locker;
+    private Condition condition;
 
-    private Storehouse() {
-        locker = new ReentrantLock();
+    private Storehouse(List<Terminal> terminals) {
         freeTerminals = new ArrayDeque<>();
         givenTerminals = new ArrayDeque<>();
-        for (int i = 0; i < TERMINAL_QUANTITY; i++) {
-            Terminal terminal = Terminal.getTerminal();
-            terminal.setIdTerminal(i);
-            freeTerminals.add(terminal);
+        locker = new ReentrantLock();
+        condition = locker.newCondition();
+        freeTerminals.addAll(terminals);
+    }
+
+    public static Storehouse getInstance(List<Terminal> terminals) {
+        if (INSTANCE == null) {
+            INSTANCE = new Storehouse(terminals);
         }
-        if (freeTerminals.size() == 0) {
-            throw new RuntimeException("Storehouse is unable to create Terminals");
-        }
+        return INSTANCE;
+    }
+
+    public static Storehouse getInstance() {
+        return INSTANCE;
     }
 
     public Terminal getTerminal() {
-        Terminal terminal = null;
+        Terminal terminal;
         try {
             locker.lock();
-            if (!freeTerminals.isEmpty()) {
-                terminal = freeTerminals.poll();
-                givenTerminals.offer(terminal);
-            } else {
-                locker.newCondition().await();
+            while (freeTerminals.isEmpty()) {
                 logger.warn("Terminals is occupied");
+                condition.await();
             }
+            terminal = freeTerminals.poll();
+            givenTerminals.offer(terminal);
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            terminal = null;
+            logger.warn("Thread was interrupted");
         } finally {
             locker.unlock();
         }
@@ -51,22 +57,14 @@ public class Storehouse {
     }
 
     public void releaseTerminal(Terminal terminal) {
-        locker.lock();
-
         try {
-            if (givenTerminals.remove(terminal)) {
-                freeTerminals.offer(terminal);
-            }
+            locker.lock();
+            freeTerminals.offer(terminal);
+            givenTerminals.remove();
         } finally {
+            condition.signal();
             locker.unlock();
-            locker.newCondition().signalAll();
         }
-
-
-    }
-
-    public static Storehouse getInstance() {
-        return INSTANCE;
     }
 
 }

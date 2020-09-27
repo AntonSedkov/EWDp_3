@@ -13,8 +13,8 @@ public class LoadCargoState implements BaseState {
     public void activateState(Van van) {
         int vanEmptyCapacity = Van.MAX_CAPACITY;
         Terminal terminal = van.getTerminal();
-        int terminalEmptyCapacity = terminal.getEmptyCapacity();
-        int terminalProduction = Terminal.MAX_CAPACITY - terminal.getEmptyCapacity();
+        int terminalEmptyCapacity = terminal.getEmptyCapacity().get();
+        int terminalProduction = Terminal.MAX_CAPACITY - terminal.getEmptyCapacity().get();
         if (vanEmptyCapacity >= terminalProduction) {
             terminal.setEmptyCapacity(Terminal.MAX_CAPACITY);
         } else {

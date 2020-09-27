@@ -396,3 +396,286 @@
 2020-09-28 01:14:12 [van1] INFO  ExitState:12 - Van1 has left the storehouse.
 2020-09-28 01:14:13 [van13] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 13. Current terminal: no
 2020-09-28 01:14:13 [van13] INFO  ExitState:12 - Van13 has left the storehouse.
+2020-09-28 01:40:20 [main] INFO  ProjectReader:23 - Lines from file has been read successfully.
+2020-09-28 01:40:20 [main] INFO  ProjectDataParser:24 - Data has been successfully parsed.
+2020-09-28 01:40:20 [main] INFO  TerminalFactory:20 - Terminal1 has been created.
+2020-09-28 01:40:20 [main] INFO  TerminalFactory:20 - Terminal2 has been created.
+2020-09-28 01:40:20 [main] INFO  TerminalFactory:20 - Terminal3 has been created.
+2020-09-28 01:40:20 [main] INFO  TerminalFactory:20 - Terminal4 has been created.
+2020-09-28 01:40:20 [main] INFO  ProjectReader:23 - Lines from file has been read successfully.
+2020-09-28 01:40:20 [main] INFO  ProjectDataParser:24 - Data has been successfully parsed.
+2020-09-28 01:40:20 [main] INFO  VanFactory:21 - Van1 has been created.
+2020-09-28 01:40:20 [main] INFO  VanFactory:21 - Van2 has been created.
+2020-09-28 01:40:20 [main] INFO  VanFactory:21 - Van3 has been created.
+2020-09-28 01:40:20 [main] INFO  VanFactory:21 - Van4 has been created.
+2020-09-28 01:40:20 [main] INFO  VanFactory:21 - Van5 has been created.
+2020-09-28 01:40:20 [main] INFO  VanFactory:21 - Van6 has been created.
+2020-09-28 01:40:20 [main] INFO  VanFactory:21 - Van7 has been created.
+2020-09-28 01:40:20 [main] INFO  VanFactory:21 - Van8 has been created.
+2020-09-28 01:40:20 [main] INFO  VanFactory:21 - Van9 has been created.
+2020-09-28 01:40:20 [main] INFO  VanFactory:21 - Van10 has been created.
+2020-09-28 01:40:20 [main] INFO  VanFactory:21 - Van11 has been created.
+2020-09-28 01:40:20 [main] INFO  VanFactory:21 - Van12 has been created.
+2020-09-28 01:40:20 [main] INFO  VanFactory:21 - Van13 has been created.
+2020-09-28 01:40:20 [main] INFO  VanFactory:21 - Van14 has been created.
+2020-09-28 01:40:20 [main] INFO  VanFactory:21 - Van15 has been created.
+2020-09-28 01:40:20 [van9] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 9. Current terminal: no
+2020-09-28 01:40:20 [van15] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 15. Current terminal: no
+2020-09-28 01:40:20 [van7] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 7. Current terminal: no
+2020-09-28 01:40:20 [van4] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 4. Current terminal: no
+2020-09-28 01:40:20 [van2] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 2. Current terminal: no
+2020-09-28 01:40:20 [van1] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 1. Current terminal: no
+2020-09-28 01:40:20 [van3] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 3. Current terminal: no
+2020-09-28 01:40:20 [van13] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 13. Current terminal: no
+2020-09-28 01:40:20 [van11] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 11. Current terminal: no
+2020-09-28 01:40:20 [van14] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 14. Current terminal: no
+2020-09-28 01:40:20 [van8] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 8. Current terminal: no
+2020-09-28 01:40:20 [van5] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 5. Current terminal: no
+2020-09-28 01:40:20 [van3] INFO  EnterState:14 - Van3 has entered into the storehouse.
+2020-09-28 01:40:20 [van9] INFO  EnterState:14 - Van9 has entered into the storehouse.
+2020-09-28 01:40:20 [van11] INFO  EnterState:14 - Van11 has entered into the storehouse.
+2020-09-28 01:40:20 [van4] INFO  EnterState:14 - Van4 has entered into the storehouse.
+2020-09-28 01:40:20 [van14] INFO  EnterState:14 - Van14 has entered into the storehouse.
+2020-09-28 01:40:20 [van5] INFO  EnterState:14 - Van5 has entered into the storehouse.
+2020-09-28 01:40:20 [van15] INFO  EnterState:14 - Van15 has entered into the storehouse.
+2020-09-28 01:40:20 [van11] INFO  EnterState:30 - Change state to next
+2020-09-28 01:40:20 [van9] INFO  EnterState:30 - Change state to next
+2020-09-28 01:40:20 [van14] INFO  EnterState:30 - Change state to next
+2020-09-28 01:40:20 [van4] INFO  EnterState:30 - Change state to next
+2020-09-28 01:40:20 [van13] INFO  EnterState:14 - Van13 has entered into the storehouse.
+2020-09-28 01:40:20 [van6] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 6. Current terminal: no
+2020-09-28 01:40:20 [van5] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:40:20 [van8] INFO  EnterState:14 - Van8 has entered into the storehouse.
+2020-09-28 01:40:20 [van1] INFO  EnterState:14 - Van1 has entered into the storehouse.
+2020-09-28 01:40:20 [van7] INFO  EnterState:14 - Van7 has entered into the storehouse.
+2020-09-28 01:40:20 [van2] INFO  EnterState:14 - Van2 has entered into the storehouse.
+2020-09-28 01:40:20 [van10] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 10. Current terminal: no
+2020-09-28 01:40:20 [van15] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:40:20 [van6] INFO  EnterState:14 - Van6 has entered into the storehouse.
+2020-09-28 01:40:20 [van3] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:40:20 [van10] INFO  EnterState:14 - Van10 has entered into the storehouse.
+2020-09-28 01:40:20 [van13] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:40:20 [van12] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 12. Current terminal: no
+2020-09-28 01:40:20 [van8] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:40:20 [van12] INFO  EnterState:14 - Van12 has entered into the storehouse.
+2020-09-28 01:40:20 [van1] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:40:20 [van7] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:40:20 [van2] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:40:20 [van6] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:40:20 [van10] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:40:20 [van12] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:40:21 [van14] INFO  Van:79 - Current state: class by.epam.logistics.state.UnloadCargoState. Current van: 14. Current terminal: 3
+2020-09-28 01:40:21 [van11] INFO  Van:79 - Current state: class by.epam.logistics.state.UnloadCargoState. Current van: 11. Current terminal: 2
+2020-09-28 01:40:21 [van4] INFO  Van:79 - Current state: class by.epam.logistics.state.LoadCargoState. Current van: 4. Current terminal: 4
+2020-09-28 01:40:21 [van3] INFO  EnterState:30 - Change state to next
+2020-09-28 01:40:21 [van15] INFO  EnterState:30 - Change state to next
+2020-09-28 01:40:21 [van4] INFO  LoadCargoState:26 - Change state to next
+2020-09-28 01:40:21 [van11] INFO  UnloadCargoState:32 - Change state to next
+2020-09-28 01:40:21 [van14] INFO  UnloadCargoState:32 - Change state to next
+2020-09-28 01:40:21 [van5] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:40:21 [van9] INFO  Van:79 - Current state: class by.epam.logistics.state.LoadCargoState. Current van: 9. Current terminal: 1
+2020-09-28 01:40:21 [van13] INFO  EnterState:30 - Change state to next
+2020-09-28 01:40:21 [van9] INFO  LoadCargoState:26 - Change state to next
+2020-09-28 01:40:22 [van3] INFO  Van:79 - Current state: class by.epam.logistics.state.UnloadCargoState. Current van: 3. Current terminal: 4
+2020-09-28 01:40:22 [van3] INFO  UnloadCargoState:32 - Change state to next
+2020-09-28 01:40:22 [van8] INFO  EnterState:30 - Change state to next
+2020-09-28 01:40:22 [van4] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 4. Current terminal: no
+2020-09-28 01:40:22 [van4] INFO  ExitState:12 - Van4 has left the storehouse.
+2020-09-28 01:40:22 [van15] INFO  Van:79 - Current state: class by.epam.logistics.state.LoadCargoState. Current van: 15. Current terminal: 2
+2020-09-28 01:40:22 [van14] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 14. Current terminal: no
+2020-09-28 01:40:22 [van15] INFO  LoadCargoState:26 - Change state to next
+2020-09-28 01:40:22 [van1] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:40:22 [van14] INFO  ExitState:12 - Van14 has left the storehouse.
+2020-09-28 01:40:22 [van11] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 11. Current terminal: no
+2020-09-28 01:40:22 [van11] INFO  ExitState:12 - Van11 has left the storehouse.
+2020-09-28 01:40:22 [van13] INFO  Van:79 - Current state: class by.epam.logistics.state.UnloadCargoState. Current van: 13. Current terminal: 1
+2020-09-28 01:40:22 [van9] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 9. Current terminal: no
+2020-09-28 01:40:22 [van7] INFO  EnterState:30 - Change state to next
+2020-09-28 01:40:22 [van13] INFO  UnloadCargoState:32 - Change state to next
+2020-09-28 01:40:22 [van9] INFO  ExitState:12 - Van9 has left the storehouse.
+2020-09-28 01:40:23 [van8] INFO  Van:79 - Current state: class by.epam.logistics.state.LoadCargoState. Current van: 8. Current terminal: 4
+2020-09-28 01:40:23 [van3] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 3. Current terminal: no
+2020-09-28 01:40:23 [van3] INFO  ExitState:12 - Van3 has left the storehouse.
+2020-09-28 01:40:23 [van8] INFO  LoadCargoState:26 - Change state to next
+2020-09-28 01:40:23 [van2] INFO  EnterState:30 - Change state to next
+2020-09-28 01:40:23 [van15] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 15. Current terminal: no
+2020-09-28 01:40:23 [van15] INFO  ExitState:12 - Van15 has left the storehouse.
+2020-09-28 01:40:23 [van13] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 13. Current terminal: no
+2020-09-28 01:40:23 [van7] INFO  Van:79 - Current state: class by.epam.logistics.state.UnloadCargoState. Current van: 7. Current terminal: 1
+2020-09-28 01:40:23 [van13] INFO  ExitState:12 - Van13 has left the storehouse.
+2020-09-28 01:40:23 [van6] INFO  EnterState:30 - Change state to next
+2020-09-28 01:40:23 [van7] INFO  UnloadCargoState:32 - Change state to next
+2020-09-28 01:40:24 [van2] INFO  Van:79 - Current state: class by.epam.logistics.state.UnloadCargoState. Current van: 2. Current terminal: 4
+2020-09-28 01:40:24 [van8] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 8. Current terminal: no
+2020-09-28 01:40:24 [van8] INFO  ExitState:12 - Van8 has left the storehouse.
+2020-09-28 01:40:24 [van10] INFO  EnterState:30 - Change state to next
+2020-09-28 01:40:24 [van2] INFO  UnloadCargoState:32 - Change state to next
+2020-09-28 01:40:24 [van6] INFO  Van:79 - Current state: class by.epam.logistics.state.UnloadCargoState. Current van: 6. Current terminal: 1
+2020-09-28 01:40:24 [van7] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 7. Current terminal: no
+2020-09-28 01:40:24 [van6] INFO  UnloadCargoState:32 - Change state to next
+2020-09-28 01:40:24 [van7] INFO  ExitState:12 - Van7 has left the storehouse.
+2020-09-28 01:40:24 [van12] INFO  EnterState:30 - Change state to next
+2020-09-28 01:40:25 [van2] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 2. Current terminal: no
+2020-09-28 01:40:25 [van10] INFO  Van:79 - Current state: class by.epam.logistics.state.LoadCargoState. Current van: 10. Current terminal: 4
+2020-09-28 01:40:25 [van5] INFO  EnterState:30 - Change state to next
+2020-09-28 01:40:25 [van10] INFO  LoadCargoState:26 - Change state to next
+2020-09-28 01:40:25 [van2] INFO  ExitState:12 - Van2 has left the storehouse.
+2020-09-28 01:40:25 [van6] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 6. Current terminal: no
+2020-09-28 01:40:25 [van6] INFO  ExitState:12 - Van6 has left the storehouse.
+2020-09-28 01:40:25 [van12] INFO  Van:79 - Current state: class by.epam.logistics.state.UnloadCargoState. Current van: 12. Current terminal: 1
+2020-09-28 01:40:25 [van1] INFO  EnterState:30 - Change state to next
+2020-09-28 01:40:25 [van12] INFO  UnloadCargoState:32 - Change state to next
+2020-09-28 01:40:26 [van10] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 10. Current terminal: no
+2020-09-28 01:40:26 [van5] INFO  Van:79 - Current state: class by.epam.logistics.state.UnloadCargoState. Current van: 5. Current terminal: 4
+2020-09-28 01:40:26 [van10] INFO  ExitState:12 - Van10 has left the storehouse.
+2020-09-28 01:40:26 [van5] INFO  UnloadCargoState:32 - Change state to next
+2020-09-28 01:40:26 [van12] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 12. Current terminal: no
+2020-09-28 01:40:26 [van1] INFO  Van:79 - Current state: class by.epam.logistics.state.LoadCargoState. Current van: 1. Current terminal: 1
+2020-09-28 01:40:26 [van12] INFO  ExitState:12 - Van12 has left the storehouse.
+2020-09-28 01:40:26 [van1] INFO  LoadCargoState:26 - Change state to next
+2020-09-28 01:40:27 [van5] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 5. Current terminal: no
+2020-09-28 01:40:27 [van5] INFO  ExitState:12 - Van5 has left the storehouse.
+2020-09-28 01:40:27 [van1] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 1. Current terminal: no
+2020-09-28 01:40:27 [van1] INFO  ExitState:12 - Van1 has left the storehouse.
+2020-09-28 01:42:53 [main] INFO  ProjectReader:23 - Lines from file has been read successfully.
+2020-09-28 01:42:53 [main] INFO  ProjectDataParser:24 - Data has been successfully parsed.
+2020-09-28 01:42:53 [main] INFO  TerminalFactory:20 - Terminal1 has been created.
+2020-09-28 01:42:53 [main] INFO  TerminalFactory:20 - Terminal2 has been created.
+2020-09-28 01:42:53 [main] INFO  TerminalFactory:20 - Terminal3 has been created.
+2020-09-28 01:42:53 [main] INFO  TerminalFactory:20 - Terminal4 has been created.
+2020-09-28 01:42:53 [main] INFO  ProjectReader:23 - Lines from file has been read successfully.
+2020-09-28 01:42:53 [main] INFO  ProjectDataParser:24 - Data has been successfully parsed.
+2020-09-28 01:42:53 [main] INFO  VanFactory:21 - Van1 has been created.
+2020-09-28 01:42:53 [main] INFO  VanFactory:21 - Van2 has been created.
+2020-09-28 01:42:53 [main] INFO  VanFactory:21 - Van3 has been created.
+2020-09-28 01:42:53 [main] INFO  VanFactory:21 - Van4 has been created.
+2020-09-28 01:42:53 [main] INFO  VanFactory:21 - Van5 has been created.
+2020-09-28 01:42:53 [main] INFO  VanFactory:21 - Van6 has been created.
+2020-09-28 01:42:53 [main] INFO  VanFactory:21 - Van7 has been created.
+2020-09-28 01:42:53 [main] INFO  VanFactory:21 - Van8 has been created.
+2020-09-28 01:42:53 [main] INFO  VanFactory:21 - Van9 has been created.
+2020-09-28 01:42:53 [main] INFO  VanFactory:21 - Van10 has been created.
+2020-09-28 01:42:53 [main] INFO  VanFactory:21 - Van11 has been created.
+2020-09-28 01:42:53 [main] INFO  VanFactory:21 - Van12 has been created.
+2020-09-28 01:42:53 [main] INFO  VanFactory:21 - Van13 has been created.
+2020-09-28 01:42:53 [main] INFO  VanFactory:21 - Van14 has been created.
+2020-09-28 01:42:53 [main] INFO  VanFactory:21 - Van15 has been created.
+2020-09-28 01:42:53 [van15] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 15. Current terminal: no
+2020-09-28 01:42:53 [van3] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 3. Current terminal: no
+2020-09-28 01:42:53 [van7] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 7. Current terminal: no
+2020-09-28 01:42:53 [van4] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 4. Current terminal: no
+2020-09-28 01:42:53 [van9] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 9. Current terminal: no
+2020-09-28 01:42:53 [van8] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 8. Current terminal: no
+2020-09-28 01:42:53 [van11] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 11. Current terminal: no
+2020-09-28 01:42:53 [van14] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 14. Current terminal: no
+2020-09-28 01:42:53 [van3] INFO  EnterState:14 - Van3 has entered into the storehouse.
+2020-09-28 01:42:53 [van4] INFO  EnterState:14 - Van4 has entered into the storehouse.
+2020-09-28 01:42:53 [van15] INFO  EnterState:14 - Van15 has entered into the storehouse.
+2020-09-28 01:42:53 [van9] INFO  EnterState:14 - Van9 has entered into the storehouse.
+2020-09-28 01:42:53 [van7] INFO  EnterState:14 - Van7 has entered into the storehouse.
+2020-09-28 01:42:53 [van11] INFO  EnterState:14 - Van11 has entered into the storehouse.
+2020-09-28 01:42:53 [van8] INFO  EnterState:14 - Van8 has entered into the storehouse.
+2020-09-28 01:42:53 [van14] INFO  EnterState:14 - Van14 has entered into the storehouse.
+2020-09-28 01:42:53 [van4] INFO  EnterState:30 - Change state to next
+2020-09-28 01:42:53 [van15] INFO  EnterState:30 - Change state to next
+2020-09-28 01:42:53 [van1] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 1. Current terminal: no
+2020-09-28 01:42:53 [van14] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:42:53 [van6] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 6. Current terminal: no
+2020-09-28 01:42:53 [van5] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 5. Current terminal: no
+2020-09-28 01:42:53 [van6] INFO  EnterState:14 - Van6 has entered into the storehouse.
+2020-09-28 01:42:53 [van9] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:42:53 [van2] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 2. Current terminal: no
+2020-09-28 01:42:53 [van12] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 12. Current terminal: no
+2020-09-28 01:42:53 [van1] INFO  EnterState:14 - Van1 has entered into the storehouse.
+2020-09-28 01:42:53 [van10] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 10. Current terminal: no
+2020-09-28 01:42:53 [van13] INFO  Van:79 - Current state: class by.epam.logistics.state.EnterState. Current van: 13. Current terminal: no
+2020-09-28 01:42:53 [van5] INFO  EnterState:14 - Van5 has entered into the storehouse.
+2020-09-28 01:42:53 [van7] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:42:53 [van1] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:42:53 [van10] INFO  EnterState:14 - Van10 has entered into the storehouse.
+2020-09-28 01:42:53 [van12] INFO  EnterState:14 - Van12 has entered into the storehouse.
+2020-09-28 01:42:53 [van13] INFO  EnterState:14 - Van13 has entered into the storehouse.
+2020-09-28 01:42:53 [van10] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:42:53 [van2] INFO  EnterState:14 - Van2 has entered into the storehouse.
+2020-09-28 01:42:53 [van3] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:42:53 [van11] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:42:53 [van6] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:42:53 [van8] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:42:53 [van5] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:42:53 [van12] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:42:53 [van13] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:42:53 [van2] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:42:54 [van15] INFO  Van:79 - Current state: class by.epam.logistics.state.LoadCargoState. Current van: 15. Current terminal: 3
+2020-09-28 01:42:54 [van4] INFO  Van:79 - Current state: class by.epam.logistics.state.LoadCargoState. Current van: 4. Current terminal: 1
+2020-09-28 01:42:54 [van4] INFO  LoadCargoState:26 - Change state to next
+2020-09-28 01:42:54 [van14] INFO  EnterState:30 - Change state to next
+2020-09-28 01:42:54 [van15] INFO  LoadCargoState:26 - Change state to next
+2020-09-28 01:42:54 [van9] WARN  Storehouse:45 - Terminals is occupied
+2020-09-28 01:42:55 [van4] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 4. Current terminal: no
+2020-09-28 01:42:55 [van4] INFO  ExitState:12 - Van4 has left the storehouse.
+2020-09-28 01:42:55 [van14] INFO  Van:79 - Current state: class by.epam.logistics.state.UnloadCargoState. Current van: 14. Current terminal: 1
+2020-09-28 01:42:55 [van15] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 15. Current terminal: no
+2020-09-28 01:42:55 [van15] INFO  ExitState:12 - Van15 has left the storehouse.
+2020-09-28 01:42:55 [van14] INFO  UnloadCargoState:32 - Change state to next
+2020-09-28 01:42:55 [van7] INFO  EnterState:30 - Change state to next
+2020-09-28 01:42:56 [van14] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 14. Current terminal: no
+2020-09-28 01:42:56 [van7] INFO  Van:79 - Current state: class by.epam.logistics.state.UnloadCargoState. Current van: 7. Current terminal: 1
+2020-09-28 01:42:56 [van7] INFO  UnloadCargoState:32 - Change state to next
+2020-09-28 01:42:56 [van14] INFO  ExitState:12 - Van14 has left the storehouse.
+2020-09-28 01:42:56 [van1] INFO  EnterState:30 - Change state to next
+2020-09-28 01:42:57 [van7] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 7. Current terminal: no
+2020-09-28 01:42:57 [van1] INFO  Van:79 - Current state: class by.epam.logistics.state.LoadCargoState. Current van: 1. Current terminal: 1
+2020-09-28 01:42:57 [van7] INFO  ExitState:12 - Van7 has left the storehouse.
+2020-09-28 01:42:57 [van1] INFO  LoadCargoState:26 - Change state to next
+2020-09-28 01:42:57 [van10] INFO  EnterState:30 - Change state to next
+2020-09-28 01:42:58 [van10] INFO  Van:79 - Current state: class by.epam.logistics.state.LoadCargoState. Current van: 10. Current terminal: 1
+2020-09-28 01:42:58 [van1] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 1. Current terminal: no
+2020-09-28 01:42:58 [van10] INFO  LoadCargoState:26 - Change state to next
+2020-09-28 01:42:58 [van3] INFO  EnterState:30 - Change state to next
+2020-09-28 01:42:58 [van1] INFO  ExitState:12 - Van1 has left the storehouse.
+2020-09-28 01:42:59 [van3] INFO  Van:79 - Current state: class by.epam.logistics.state.UnloadCargoState. Current van: 3. Current terminal: 1
+2020-09-28 01:42:59 [van10] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 10. Current terminal: no
+2020-09-28 01:42:59 [van10] INFO  ExitState:12 - Van10 has left the storehouse.
+2020-09-28 01:42:59 [van3] INFO  UnloadCargoState:32 - Change state to next
+2020-09-28 01:42:59 [van11] INFO  EnterState:30 - Change state to next
+2020-09-28 01:43:00 [van11] INFO  Van:79 - Current state: class by.epam.logistics.state.UnloadCargoState. Current van: 11. Current terminal: 1
+2020-09-28 01:43:00 [van3] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 3. Current terminal: no
+2020-09-28 01:43:00 [van6] INFO  EnterState:30 - Change state to next
+2020-09-28 01:43:00 [van3] INFO  ExitState:12 - Van3 has left the storehouse.
+2020-09-28 01:43:00 [van11] INFO  UnloadCargoState:32 - Change state to next
+2020-09-28 01:43:01 [van6] INFO  Van:79 - Current state: class by.epam.logistics.state.UnloadCargoState. Current van: 6. Current terminal: 1
+2020-09-28 01:43:01 [van11] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 11. Current terminal: no
+2020-09-28 01:43:01 [van6] INFO  UnloadCargoState:32 - Change state to next
+2020-09-28 01:43:01 [van11] INFO  ExitState:12 - Van11 has left the storehouse.
+2020-09-28 01:43:01 [van8] INFO  EnterState:30 - Change state to next
+2020-09-28 01:43:02 [van6] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 6. Current terminal: no
+2020-09-28 01:43:02 [van8] INFO  Van:79 - Current state: class by.epam.logistics.state.LoadCargoState. Current van: 8. Current terminal: 1
+2020-09-28 01:43:02 [van6] INFO  ExitState:12 - Van6 has left the storehouse.
+2020-09-28 01:43:02 [van8] INFO  LoadCargoState:26 - Change state to next
+2020-09-28 01:43:02 [van5] INFO  EnterState:30 - Change state to next
+2020-09-28 01:43:03 [van8] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 8. Current terminal: no
+2020-09-28 01:43:03 [van5] INFO  Van:79 - Current state: class by.epam.logistics.state.UnloadCargoState. Current van: 5. Current terminal: 1
+2020-09-28 01:43:03 [van5] INFO  UnloadCargoState:32 - Change state to next
+2020-09-28 01:43:03 [van12] INFO  EnterState:30 - Change state to next
+2020-09-28 01:43:03 [van8] INFO  ExitState:12 - Van8 has left the storehouse.
+2020-09-28 01:43:04 [van5] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 5. Current terminal: no
+2020-09-28 01:43:04 [van12] INFO  Van:79 - Current state: class by.epam.logistics.state.UnloadCargoState. Current van: 12. Current terminal: 1
+2020-09-28 01:43:04 [van5] INFO  ExitState:12 - Van5 has left the storehouse.
+2020-09-28 01:43:04 [van13] INFO  EnterState:30 - Change state to next
+2020-09-28 01:43:04 [van12] INFO  UnloadCargoState:32 - Change state to next
+2020-09-28 01:43:05 [van13] INFO  Van:79 - Current state: class by.epam.logistics.state.UnloadCargoState. Current van: 13. Current terminal: 1
+2020-09-28 01:43:05 [van12] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 12. Current terminal: no
+2020-09-28 01:43:05 [van13] INFO  UnloadCargoState:32 - Change state to next
+2020-09-28 01:43:05 [van2] INFO  EnterState:30 - Change state to next
+2020-09-28 01:43:05 [van12] INFO  ExitState:12 - Van12 has left the storehouse.
+2020-09-28 01:43:06 [van2] INFO  Van:79 - Current state: class by.epam.logistics.state.UnloadCargoState. Current van: 2. Current terminal: 1
+2020-09-28 01:43:06 [van13] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 13. Current terminal: no
+2020-09-28 01:43:06 [van2] INFO  UnloadCargoState:32 - Change state to next
+2020-09-28 01:43:06 [van13] INFO  ExitState:12 - Van13 has left the storehouse.
+2020-09-28 01:43:06 [van9] INFO  EnterState:30 - Change state to next
+2020-09-28 01:43:07 [van2] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 2. Current terminal: no
+2020-09-28 01:43:07 [van9] INFO  Van:79 - Current state: class by.epam.logistics.state.LoadCargoState. Current van: 9. Current terminal: 1
+2020-09-28 01:43:07 [van2] INFO  ExitState:12 - Van2 has left the storehouse.
+2020-09-28 01:43:07 [van9] INFO  LoadCargoState:26 - Change state to next
+2020-09-28 01:43:08 [van9] INFO  Van:79 - Current state: class by.epam.logistics.state.ExitState. Current van: 9. Current terminal: no
+2020-09-28 01:43:08 [van9] INFO  ExitState:12 - Van9 has left the storehouse.

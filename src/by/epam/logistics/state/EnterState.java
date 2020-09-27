@@ -20,9 +20,9 @@ public class EnterState implements BaseState {
                 terminal = Storehouse.getInstance().getTerminal();
             }
             if (nextState.getClass().equals(LoadCargoState.class)) {
-                terminal = (terminal.getEmptyCapacity() < Terminal.MAX_CAPACITY) ? terminal : null;
+                terminal = (terminal.getEmptyCapacity().get() < Terminal.MAX_CAPACITY) ? terminal : null;
             } else {
-                terminal = (terminal.getEmptyCapacity() > 0) ? terminal : null;
+                terminal = (terminal.getEmptyCapacity().get() > 0) ? terminal : null;
             }
         }
         van.setTerminal(terminal);

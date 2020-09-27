@@ -13,7 +13,7 @@ public class UnloadCargoState implements BaseState {
     public void activateState(Van van) {
         int cargo = van.getCargoCapacity();
         Terminal terminal = van.getTerminal();
-        int terminalCapacity = terminal.getEmptyCapacity();
+        int terminalCapacity = terminal.getEmptyCapacity().get();
         int difference;
         if (terminalCapacity >= cargo) {
             difference = terminalCapacity - cargo;

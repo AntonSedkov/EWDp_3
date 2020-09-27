@@ -7,11 +7,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class VanParser {
-    private static Logger logger = LogManager.getLogger(VanParser.class);
+public class ProjectDataParser {
+    private static Logger logger = LogManager.getLogger(ProjectDataParser.class);
     private static final String SPLITTER = "\\s+";
 
-    private VanParser() {
+    private ProjectDataParser() {
     }
 
     public static List<List<String>> parseVans(List<String> data) {

@@ -5,7 +5,7 @@ import by.epam.logistics.entity.Terminal;
 import by.epam.logistics.entity.Van;
 import by.epam.logistics.factory.TerminalFactory;
 import by.epam.logistics.factory.VanFactory;
-import by.epam.logistics.parser.VanParser;
+import by.epam.logistics.parser.ProjectDataParser;
 import by.epam.logistics.reader.ProjectReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -19,7 +19,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             List<String> linesTerminal = ProjectReader.readFileData("data\\terminals.txt");
-            List<List<String>> parsedLinesTerminal = VanParser.parseVans(linesTerminal);
+            List<List<String>> parsedLinesTerminal = ProjectDataParser.parseVans(linesTerminal);
             TerminalFactory factoryTerminal = new TerminalFactory();
             List<Terminal> terminals = new ArrayList<>();
             for (List<String> line : parsedLinesTerminal) {
@@ -29,7 +29,7 @@ public class Main {
             Storehouse storehouse = Storehouse.getInstance(terminals);
 
             List<String> linesVan = ProjectReader.readFileData("data\\vans.txt");
-            List<List<String>> parsedLinesVan = VanParser.parseVans(linesVan);
+            List<List<String>> parsedLinesVan = ProjectDataParser.parseVans(linesVan);
             VanFactory factoryVan = new VanFactory();
             List<Van> vans = new ArrayList<>();
             for (List<String> line : parsedLinesVan) {
